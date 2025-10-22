@@ -36,7 +36,8 @@ public class AdminService {
     private final SellerRepository sellerRepository;
     private final EmailService emailService;
     private final ProductRepository productRepository;
-    private final S3ImageService s3ImageService;
+
+     private final S3ImageService s3ImageService;
     private final ObjectMapper objectMapper;
 
 
